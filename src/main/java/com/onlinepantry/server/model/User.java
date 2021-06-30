@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Entity
 @Table(name="users") //the table name in the db
-public class Users {
+public class User {
 
     @Id //primary key for the table
     private String username;
